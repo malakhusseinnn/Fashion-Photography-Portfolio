@@ -594,3 +594,22 @@ body {
     }
 
 }
+
+@media (max-width:390px) {
+    .home .title{
+        max-width: 100%;
+    }
+    .contact h2{
+        font-size: 1.2rem;
+    }
+    .header{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .media{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+}
